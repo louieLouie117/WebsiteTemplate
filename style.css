@@ -1,6 +1,10 @@
 body{
+  display: grid;
     margin: 0;
     background: whitesmoke;
+    justify-items: center;
+    
+
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -13,3 +17,55 @@ ul, ol{
 }
 
 
+h1, p, h2{
+    padding: 0;
+    margin: 0;
+  }
+
+
+  .landingPage-container{
+    display: grid;
+    max-width: 35em;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    padding: 30px;
+    background-color: white;
+    box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.115);
+
+
+  }
+  
+  
+  .sub-container{
+    display: grid;
+    row-gap: 3px;
+    justify-content: center;
+  }
+  .sub-container>button{
+    height: 40px;
+    width: 300px;
+    border-radius: 7px;
+    border: none;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.323);
+    background-color: #006cb4;
+
+  }
+  
+  
+  .sub-container>button a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  .sub-container>img{
+    height: 50%;
+  }
+  
+  a{
+    padding: 0;
+    margin: 0;
+  
+  }
+  
+  
